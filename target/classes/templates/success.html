@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>success</h1>
+<h1>success</h1>
+<div th:id="${id}" th:text="${hello}"></div>
+<form action="/showStats" method="GET">
+    <input type="text" name="lastName">
+    <input type="text" name="lastName">
+    <input type="text" name="ages">
+    <input type="text" name="ages">
+    <input type="text" name="lastName">
+    <button type="submit">提交</button>
+</form>
+</body>
+</html>
